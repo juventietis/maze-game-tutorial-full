@@ -10,10 +10,10 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "full_game.png",
-        "full_with_bells_and_whistles.png",
-        "goal_setup.png",
-        "goal_with_sides.png",
+        "/docs/static/full_game.png",
+        "/docs/static/full_with_bells_and_whistles.png",
+        "/docs/static/goal_setup.png",
+        "/docs/static/goal_with_sides.png",
         "microbit-maze-game.hex"
     ],
     "testFiles": [

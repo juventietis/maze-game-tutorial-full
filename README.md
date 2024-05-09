@@ -44,8 +44,8 @@ Repeat the exercise for pin 2 so that you have both gates working.
 
 Download the code to the microbit and check that the score is increasing when you connect the cables to pin 2.
 
-You code should look like this:
-![Goal setup](goal_setup.png)
+You can see an example in the hint below.
+![Goal setup](/static/goal_setup.png)
 
 ## Alternating sides
 
@@ -73,7 +73,8 @@ Then display an arrow pointing left ``||basic: show leds||``.
 
 If it does, let's repeat for the other side. Don't forget to flip the Side numbers!
 
-![Goal with sides](goal_with_sides.png)
+Check the hint below!
+![Goal with sides](/static/goal_with_sides.png)
 
 ## Adding a time limit
 
@@ -97,13 +98,15 @@ To avoid confusing players, let's move the arrow from ``||basic:on start||`` to 
 
 Instead let's show a message to our players that they need to press A. ``||show string Press A!||``
 
-![Full Game](full_game.png)
+Check the hint below!
+![Full Game](/static/full_game.png)
 
 ## Enjoy the game
 Let's see how high you can score!
 
 Swap the mazes with other students, see if theirs is easier or harder.
 
-![Full Game](full_game_with_bells_and_whistles.png)
+Check the hint below!
+![Full Game](/static/full_game_with_bells_and_whistles.png)
 
 
