@@ -1,5 +1,5 @@
 {
-    "name": "maze-game-tutorial-full",
+    "name": "Maze game test",
     "description": "",
     "dependencies": {
         "core": "*",
@@ -9,7 +9,12 @@
     "files": [
         "main.blocks",
         "main.ts",
-        "README.md"
+        "README.md",
+        "full_game.png",
+        "full_with_bells_and_whistles.png",
+        "goal_setup.png",
+        "goal_with_sides.png",
+        "microbit-maze-game.hex"
     ],
     "testFiles": [
         "test.ts"
