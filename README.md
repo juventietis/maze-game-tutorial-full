@@ -33,7 +33,7 @@ You should see a tick mark displayed on the microbit.
 
 You can try that with a marble wrapped in foil to make sure it works.
 
-## score!
+## Score!
 
 Let's create a new variable called ``||variable:score||``.
 
@@ -84,9 +84,9 @@ basic.forever(function () {
 
 To make it more challenging let's require that a different goal is hit each time.
 
-Create a new variable``||variable: side||``. Set it's value to ``||variable: set side to 1||``
+Create a new variable``||variable: side||`` and ``||variable: set side to 1||``
 
-Let's draw an arrow to indicate which side needs to be hit first ``||basic:show leds||`` with an arrow pointing right.
+Draw an arrow to indicate which side needs to be hit first ``||basic:show leds||`` with an arrow pointing right.
 
 ```blocks
 let score = 0
@@ -104,11 +104,11 @@ basic.showLeds(`
 
 First add ``||logic: if side = 1||`` to the block containing if ``||logic: if pin P1 is pressed||``
 
-Then update the to 2 ``||variable: set side to 2||``.
+Then ``||variable: set side to 2||``.
 
 Repeate for the other side. Add ``||logic: if side = 2||`` to the block containing if ``||logic: if pin P2 is pressed||``
 
-And update the to 1 ``||variable: set side to 1||``.
+And ``||variable: set side to 1||``.
 
 Now to score, the players will need to hit opposing goals!
 
@@ -195,7 +195,7 @@ Next let's indicate that the game finished and ``||basic: show number score||``.
 
 You might want to play a sound here!
 
-```blocks```
+```blocks
 let score = 0
 let time_left = 0
 let side = 1
