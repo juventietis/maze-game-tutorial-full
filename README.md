@@ -1,7 +1,10 @@
 # Maze game
 
 ## Game explained
-You will have 2 minutes to score points, by pulling on the strings to get the ball from one side of the maze to the other.
+
+You will play in pairs, holding the box by the strings to get the ball from one side of the maze to the other.
+
+You will have 2 minutes to score points.
 
 After 2 minutes, the players will be given their score and the new game can start. 
 
