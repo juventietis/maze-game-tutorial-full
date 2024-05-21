@@ -49,6 +49,16 @@ Replace ``||basic:show number 1||`` with ``||basic: show number Score||``
 
 ``|Download|`` the code and see if the number increases each time the cables touch.
 
+```blocks
+let Score = 0
+basic.forever(function () {
+    if (input.pinIsPressed(TouchPin.P1)) {
+        Score += 1
+        basic.showNumber(Score)
+    }
+})
+```
+
 ## Now repeat for the other goal
 
 Repeat the exercise for pin 2 so that you have both gates working. 
