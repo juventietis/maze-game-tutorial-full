@@ -2,9 +2,9 @@
 
 ## Game explained
 
-You will play in pairs, holding the box by the strings to get the ball from one side of the maze to the other.
+The goal of the game is to score as many points as you can in 2mins!
 
-You will have 2 minutes to score points.
+You will play in pairs, holding the box by the strings to get the ball from one goal to the other.
 
 After 2 minutes, the players will be given their score and the new game can start. 
 
@@ -12,9 +12,17 @@ After 2 minutes, the players will be given their score and the new game can star
 
 Get a ``||input:pin P1 is pressed||`` block and place it in the value slot of ``||logic:if then||``.
 
-Then add a ``||basic:show number 1||`` to show a tick whenever the condition is true.
+Then add a ``||basic:show number 1||`` to show "1" when the goal is hit.
 
 ``|Download|`` the code to your microbit.
+
+```blocks
+basic.forever(function () {
+    if (input.pinIsPressed(TouchPin.P1)) {
+        basic.showNumber(1)
+    }
+})
+```
 ## Connect the cables
 
 Next connect one cable to GND, the other to pin 1.
